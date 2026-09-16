@@ -17,6 +17,7 @@ Supplier LK → `Stock`
 - видеть лучшую цену по товару при hover на `Price`, если rank не `№1`.
 
 ## Main UI areas
+
 ### 1. Date tabs
 На странице есть вкладки по датам и вкладка `ALL`.
 
@@ -89,6 +90,7 @@ Supplier LK → `Stock`
 - нужно контролировать отсутствие дублей в `Supplier Stock`, `Admin Stock`, Buyer app.
 
 ## Roles and access
+
 ### Admin
 - может видеть и редактировать все товары.
 
