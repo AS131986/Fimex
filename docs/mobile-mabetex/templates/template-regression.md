@@ -1,0 +1,19 @@
+# Regression Area: <Name>
+
+## Critical flows
+- ...
+
+## Covered modules
+- ...
+
+## Main checks
+- ...
+
+## Edge cases
+- ...
+
+## Known risks
+- ...
+
+## Open questions
+- ...
