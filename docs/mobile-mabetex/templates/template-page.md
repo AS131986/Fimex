@@ -1,0 +1,16 @@
+# <Title>
+
+## What is known
+- ...
+
+## What is assumed
+- ...
+
+## What needs clarification
+- ...
+
+## Risks
+- ...
+
+## Notes
+- ...

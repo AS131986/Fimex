@@ -1,0 +1,16 @@
+# Open Question: <Title>
+
+## Question
+- ...
+
+## Why it matters
+- ...
+
+## Current assumption
+- ...
+
+## What to confirm
+- ...
+
+## Impact if unresolved
+- ...
