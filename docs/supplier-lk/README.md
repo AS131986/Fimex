@@ -6,8 +6,8 @@ QA documentation for Supplier LK (supplier personal account) in Fimex.
 - `01-product-overview/` — product context and scope
 - `02-modules/` — module-level notes
 - `03-pages/` — page descriptions and UI behavior
-- `04-business-rules/` — business rules and constraints
-- `05-test-design/` — checklists, scenarios, and coverage
+- `04-business-rules/` — business rules and constraints; Stock targeting: `04-business-rules/stock-targeting-price-rank.md`
+- `05-test-design/` — checklists, scenarios, and coverage; Stock checklist: `05-test-design/stock-page-checklist.md`
 - `06-bugs-and-risks/` — bug notes and known risks
 - `07-open-questions/` — unresolved questions and dependencies
 - `08-test-data/` — test data sets and prerequisites
