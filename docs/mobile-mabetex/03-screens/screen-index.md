@@ -13,6 +13,7 @@
 - Shipment Details
 - Profile / Account
 - Notifications
+- Price List
 
 ## Notes
 - Add Mabetex-specific screens as soon as they are confirmed.
