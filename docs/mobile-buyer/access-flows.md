@@ -1,4 +1,4 @@
-# Регистрация, авторизация и восстановление — Fimex Buyer, iOS
+# Каталог QA-документации — Fimex Buyer, iOS
 
 Документы сгруппированы по функциональности. Авторизация и восстановление находятся в одной группе, регистрация и оформление подписки — в другой. Описания экранов — `03-screens/`, правила и открытые вопросы — `04-business-rules/`, чек-листы — `05-test-design/`.
 
@@ -13,7 +13,8 @@
 | Подписка | [Онбординг и подписка](03-screens/registration/subscription-onboarding.md) | [Подписка](04-business-rules/registration.md#subscription-onboarding) | [Подписка](05-test-design/registration/checklist-registration.md#subscription-onboarding) |
 | Авторизация | [Вход](03-screens/authentication/login.md) | [Авторизация](04-business-rules/authentication.md#login) | [Вход](05-test-design/authentication/checklist-login.md) |
 | Восстановление | [Все шаги](03-screens/authentication/password-recovery.md) | [Восстановление](04-business-rules/authentication.md#password-reset-email) | [Все шаги](05-test-design/authentication/checklist-password-recovery.md) |
-| Price List | [Прайс](03-screens/price-list.md) | [Правила прайса](04-business-rules/price-list.md), [уведомления](04-business-rules/price-list-notifications.md) | [Price List](05-test-design/checklist-price-list.md) |
+| Price List | [Прайс](03-screens/home/price-list.md) | [Правила прайса](04-business-rules/price-list.md), [уведомления](04-business-rules/price-list-notifications.md) | [Price List](05-test-design/home/checklist-price-list.md) |
+| Главная и нижнее меню | [Главная](03-screens/home/home.md) | [Главная и меню](04-business-rules/home.md) | [Главная](05-test-design/home/checklist-home.md), [нижнее меню](05-test-design/home/checklist-bottom-navigation.md) |
 
 ## Сценарии
 
