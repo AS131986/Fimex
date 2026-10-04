@@ -57,3 +57,4 @@
 - [Бизнес-правила и известные расхождения](../../04-business-rules/price-list.md).
 - [Правила уведомлений](../../04-business-rules/price-list-notifications.md).
 - [Чек-лист и открытые вопросы](../../05-test-design/home/checklist-price-list.md).
+- [Покупка товара: шаги, ограничения и проверки изменений](purchase.md).

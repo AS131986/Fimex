@@ -15,6 +15,16 @@
 | Восстановление | [Все шаги](03-screens/authentication/password-recovery.md) | [Восстановление](04-business-rules/authentication.md#password-reset-email) | [Все шаги](05-test-design/authentication/checklist-password-recovery.md) |
 | Price List | [Прайс](03-screens/home/price-list.md) | [Правила прайса](04-business-rules/price-list.md), [уведомления](04-business-rules/price-list-notifications.md) | [Price List](05-test-design/home/checklist-price-list.md) |
 | Главная и нижнее меню | [Главная](03-screens/home/home.md) | [Главная и меню](04-business-rules/home.md) | [Главная](05-test-design/home/checklist-home.md), [нижнее меню](05-test-design/home/checklist-bottom-navigation.md) |
+| Настройки | [Sheet Настроек](03-screens/home/settings.md) | [Глубина, оплата и Excel](04-business-rules/settings.md) | [Настройки](05-test-design/home/checklist-settings.md) |
+| Поиск | [Поиск и история](03-screens/home/search.md) | [Поиск, результаты и история](04-business-rules/search.md) | [Поиск](05-test-design/home/checklist-search.md) |
+| Уведомления | [Список событий](03-screens/home/notifications.md) | [События, роли и переходы](04-business-rules/notifications.md) | [Уведомления](05-test-design/home/checklist-notifications.md) |
+| Покупка товара | [Pre-Order и вложенные окна](03-screens/home/purchase.md) | [Количество, гарантия, лимит, логист, Share](04-business-rules/purchase.md) | [Покупка](05-test-design/home/checklist-purchase.md) |
+| Создание заявки P2P | [P2P Chat и активная заявка](03-screens/home/p2p-request.md) | [Цена, количество, резерв лимита и общие заявки](04-business-rules/p2p-request.md) | [Создание заявки](05-test-design/home/checklist-p2p-request.md) |
+| Мои заказы — клиент и корп | [Активный список клиента/корпа](03-screens/orders/my-orders-client-corporate.md) | [Статусы, показатели, суммы и оплата](04-business-rules/my-orders-client-corporate.md) | [Мои заказы клиента/корпа](05-test-design/orders/checklist-my-orders-client-corporate.md) |
+| Клиентские заказы — клиент и корп | [Список заказов реселлеров](03-screens/orders/customer-orders-client-corporate.md) | [Отдельные заказы, фильтры, ручная оплата и выдача](04-business-rules/customer-orders-client-corporate.md) | [Клиентские заказы клиента/корпа](05-test-design/orders/checklist-customer-orders-client-corporate.md) |
+| Мои заказы — реселлер | [Собственный список реселлера](03-screens/orders/my-orders-reseller.md) | [Цены с наценкой, фильтр и клиентская выдача](04-business-rules/my-orders-reseller.md) | [Мои заказы реселлера](05-test-design/orders/checklist-my-orders-reseller.md) |
+
+Заказы разделены по интерфейсам: «Мои заказы» клиента/корпа, «Мои заказы» реселлера и «Клиентские заказы» клиента/корпа. Все три списка имеют отдельные документы и чек-листы; полные детали заказов, Статистика и История будут описаны отдельно. При переключении «Мои» / «Клиентские» у клиента/корпа счётчик нижней вкладки меняется на число заказов соответствующего списка. У реселлера он учитывает только собственные текущие заказы до ручного Paid и «Выдать» со стороны клиента/корпа.
 
 ## Сценарии
 
