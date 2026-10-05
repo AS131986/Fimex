@@ -6,3 +6,4 @@ This directory contains structured QA documentation for the Fimex buyer mobile a
 
 - [Каталог: регистрация, авторизация, восстановление, Price List, Главная и нижнее меню](access-flows.md).
 - Описания экранов — `03-screens/`; бизнес-правила — `04-business-rules/`; чек-листы — `05-test-design/`.
+- [Профиль: роли, средства, меню, язык и оформление](03-screens/profile/profile.md).
