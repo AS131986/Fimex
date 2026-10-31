@@ -2,6 +2,16 @@
 
 QA documentation for Supplier LK (supplier personal account) in Fimex.
 
+## Stock: актуальные правила
+Правила таргетирования обновлены по уточнениям пользователя от 31 октября 2026 года: поставщики всех стран конкурируют совместно на одной дате Stock, рейтинг и подсказка рассчитываются по этой дате, а видимость дальних предложений учитывает цены ранних дат. Одинаковая цена на разных датах разрешена; дальний оффер с равной ценой скрывается.
+
+- [Бизнес-правила Stock](04-business-rules/stock-targeting-price-rank.md).
+- [Описание страницы](03-pages/stock-page.md).
+- [Полный чек-лист: 274 проверки](05-test-design/stock-page-checklist.md).
+- [Набор из 25 проверок изменения таргетирования](05-test-design/README.md).
+
+Это документация ожидаемого поведения. Прогон приложения и API не выполнялся.
+
 ## Structure
 - `01-product-overview/` — product context and scope
 - `02-modules/` — module-level notes
