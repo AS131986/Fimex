@@ -3,6 +3,7 @@
 Checklists, test scenarios, coverage notes, and focused test design for Supplier LK.
 
 ## Documents
+- [Чек-лист распродажи](stock-sale-checklist.md) — 59 проверок ЛК поставщика: форма и валидация, Pieces до остатка без предела 10, общая очередь, блокировки и права, заказы и остатки, отмена, переносы, комиссия $100 и её история, устойчивость и UI. Для открытых ожиданий есть исследовательские пункты; прогон не выполнялся.
 - [Основной чек-лист Stock](stock-page-checklist.md) — 274 проверки Supplier LK → Stock, включая Price/rank, конкуренцию поставщиков всех стран с учётом цен и дат, manual/auto-move, Best Price и межконтурную синхронизацию.
 - [Целевой чек-лист изменения от 04.11](stock-targeting-0411-checklist.md) — 22 проверки с ID SLK-STOCK-275–296, включая SIM, рейтинг разных дат, Best Price/From, видимость, покупку и переносы.
 
@@ -34,4 +35,5 @@ Checklists, test scenarios, coverage notes, and focused test design for Supplier
 В основном чек-листе 274 пункта, в целевом — 22, суммарно 296 уникальных ID. `SLK-STOCK-273` покрывает равные цены на одной дате, `SLK-STOCK-274` — повышение цены переносимой записи при конфликте на целевой дате. Прежние ID не перенумерованы.
 
 ## Related business rules
+- [Правила распродажи и оставшиеся вопросы](../04-business-rules/stock-sale.md).
 - [Актуальные правила цены, рейтинга, дат и переносов](../04-business-rules/stock-targeting-price-rank.md).
